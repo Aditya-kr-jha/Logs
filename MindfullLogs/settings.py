@@ -30,9 +30,9 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["mindfull-logs.onrender.com","*"]
 
-# CSRF_TRUSTED_ORIGINS = ["https://riverway.link", "https://www.riverway.link"]
+CSRF_TRUSTED_ORIGINS = ["https://mindfull-logs.onrender.com"]
 
 
 # Application definition
